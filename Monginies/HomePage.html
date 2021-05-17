@@ -1,0 +1,335 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title></title>
+    <style>
+        .nav-anchor {
+            color: #3f3f3f;
+            text-decoration: none;
+            font-family: Arial;
+        }
+
+            .nav-anchor:hover {
+                text-decoration: none;
+                color: white;
+            }
+
+        .MenuAnchor {
+            color: #B2B2B2;
+            text-decoration: none;
+            font-family: Arial;
+        }
+
+            .MenuAnchor:hover {
+                text-decoration: none;
+                color: pink;
+            }
+
+        .list-items:hover {
+            background-color: pink;
+        }
+
+        .list-items {
+            float: left;
+            display: block;
+            line-height: 40px;
+            padding: 0 10px;
+        }
+
+        .img {
+            border: 0px;
+        }
+
+
+
+        .setFont {
+            font-family: Arial;
+            text-transform: uppercase;
+            font-size: 23px;
+            color: #3f3f3f;
+        }
+
+        .Menu1 {
+        }
+
+        .menuIcon {
+            display: none;
+        }
+
+            .menuIcon:hover .hideContent {
+                display: block;
+                transition: all 0.9s;
+            }
+
+        .hideContent {
+            display: none;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            
+            z-index: 999;
+        }
+
+            .hideContent li:hover {
+                background-color: black;
+                color: pink;
+            }
+        .navbar ul {
+            list-style-type: none; padding: 0px; padding-left: 0px; text-transform: uppercase; margin-bottom: 0px;
+        }
+        @media (max-width: 992px) {
+            .Menu1 ul li a {
+                font-size: 12px;
+            }
+        }
+
+        @media (max-width: 742px) {
+            .setFont {
+                text-align: center;
+            }
+
+            .center {
+                text-align: center;
+            }
+
+            .Menu1 {
+                display: none;
+            }
+
+            .menuIcon {
+                display: block;
+            }
+        }
+
+        .setAchor {
+            color: #A5A5A5;
+            font-size: 14px;
+        }
+
+            .setAchor:hover {
+                text-decoration: none;
+                color: red;
+            }
+
+        .setFooter {
+            background-color: black;
+            color: #B8B8B8;
+            font-size: 14px;
+        }
+
+        .fa-home:before {
+            content: "\f015";
+        }
+        .fix {
+            width: 30%; height: 100%; position: fixed; top: 0%;left:0%; z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row mt-2">
+            <div class="col-md-2 col-sm-12 col-xs-12">
+                <center><img src="img/Logo.png" alt=""></center>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 menuIcon center ">
+                <span class="fas fa-bars"></span>
+                <div class="fix">
+                    <div class="hideContent">
+                        <div style="height: 790px; width: 300px; background-color: black; text-align: left;">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12"><span class="fas fa-bars p-2" style="font-size: 30px; color: white;"></span></div>
+                                    <div class="col-md-12 pl-3">
+                                        <li class="nav-item list-items"><a href="#" class="MenuAnchor"><span>Menu</span></a></li>
+                                    </div>
+                                    <div class="col-md-12 pl-3">
+                                        <li class="nav-item list-items"><a href="#" class="MenuAnchor"><span>Become Our Franchise </span></a></li>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row Menu1">
+            <div class="col-md-12">
+                <div class="navbar">
+                    <ul>
+                        <li class="nav-item list-items"><a href="#" class="nav-anchor"><span class="fa-home"></span></a></li>
+                        <li class="nav-item list-items"><a href="#" class="nav-anchor"><span>Menu </span></a></li>
+                        <li class="nav-item list-items"><a href="#" class="nav-anchor"><span>Become Our Franchise </span></a></li>
+                        <li class="nav-item list-items"><a href="#" class="nav-anchor"><span>Store Locator </span></a></li>
+                        <li class="nav-item list-items"><a href="#" class="nav-anchor"><span>New Store Locator </span></a></li>
+                        <li class="nav-item list-items"><a href="#" class="nav-anchor"><span>Mongiland</span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: #F2F2F2;">
+        <div class="row">
+            <div class="col-md-12 p-0">
+                <img class="tp-bgimg defaultimg" src="img/banner.jpg" style="background-color: rgba(0, 0, 0, 0); background-repeat: no-repeat; background-image: url(&quot;https://www.monginis.net/media/wysiwyg/Banner/Web-Banner.jpg&quot;); background-size: cover; background-position: right center; width: 100%; height: 100%; visibility: inherit; opacity: 1;" />
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="container">
+                    <div class="row mt-4">
+                        <div class="col-md-4 p-1 center">
+                            <img title="About Us" alt="About Us" src="img/6.jpg" height="292" width="360" class="img-thumbnail img" />
+                        </div>
+                        <div class="col-md-4 p-1 center">
+                            <img title="About Us" alt="About Us" src="img/5.jpg" height="292" width="360" class="img-thumbnail img" />
+                        </div>
+                        <div class="col-md-4 p-1 center">
+                            <img title="About Us" alt="About Us" src="img/4.jpg" height="292" width="360" class="img-thumbnail img" />
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-4 p-1 center">
+                            <img title="About Us" alt="About Us" src="img/3.jpg" height="292" width="360" class="img-thumbnail img" />
+                        </div>
+                        <div class="col-md-4 p-1 center">
+                            <img title="About Us" alt="About Us" src="img/2.jpg" height="292" width="360" class="img-thumbnail img" />
+                        </div>
+                        <div class="col-md-4 p-1 center">
+                            <img title="About Us" alt="About Us" src="img/1.jpg" height="292" width="360" class="img-thumbnail img" />
+                        </div>
+                    </div>
+
+                    <div class="row mt-5">
+                        <div class="col-md-12 mb-2 setFont">MONGILAND</div>
+                        <div class="col-md-12 mb-3 p-0">
+                            <a title="Visit Mongiland" href="#">
+                                <img alt="" src="img/Banner-2.jpg" height="295" width="1150" class="img-fluid" /></a>
+                        </div>
+                    </div>
+                    <div class="row " style="background-color: white;">
+                        <div class="col-md-3 col-sm-6 p-3">
+                            <a title="Careers Monginis" href="#">
+                                <img title="Careers at Monginis" alt="Careers at Monginis" src="img/C.jpg" height="75" width="225" class="img-fluid" /></a>
+                        </div>
+                        <div class="col-md-3 col-sm-6 p-3">
+                            <a href="#">
+                                <img title="Recipes &amp; Blogs Monginis" alt="Recipes &amp; Blogs" src="img/B.jpg" class="img-fluid" height="75" width="225" /></a>
+                        </div>
+                        <div class="col-md-3 col-sm-6 p-3">
+                            <a title="Coming Soon" href="#">
+                                <img title="Become Vendor / Supplier at Monginis" alt="Become Vendor / Supplier at Monginis" class="img-fluid" src="img/BS.jpg" height="75" width="225" />
+                            </a>
+                        </div>
+                        <div class="col-md-3 col-sm-6 p-3">
+                            <a title="Monginis E-Brochure" href="#">
+                                <img title="Download E Brochure" alt="Download E Brochure" src="img/DE.jpg" height="75" class="img-fluid" width="225" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 setFont mt-3 mb-2">Become A Partner</div>
+                    </div>
+                    <div class="row mb-3" style="background-color: white;">
+                        <div class="col-md-3 p-3 center">
+                            <a title="Apply for Cake Shop Franchisee" href="#">
+                                <img title="Apply for Cake Shop Franchisee " alt="Apply for Franchisee " src="img/SF.jpg" class="img-fluid" height="400" width="255" /></a>
+                        </div>
+                        <div class="col-md-3 p-3 center">
+                            <a title="Apply for Manufacturing Franchisee" href="#">
+                                <img title="Apply for Manufacturing Franchisee at Monginis" alt="Apply for Manufacturing Franchisee at Monginis" class="img-fluid" src="img/DF.jpg" height="400" width="255" /></a>
+                        </div>
+                        <div class="col-md-3 p-3 center">
+                            <a title="Apply for Distributor" href="#">
+                                <img title="Apply for Distributor | Monginis" alt="Apply for Distributor | Monginis" src="img/MF.jpg" class="img-fluid" height="400" width="255" /></a>
+                        </div>
+                        <div class="col-md-3 p-3 center">
+                            <a title="Apply for Super Stockiest" href="#">
+                                <img title="Apply for Super Stockiest " alt="Apply for Super Stockiest " src="img/SS.jpg" class="img-fluid" height="400" width="255" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid" style="background-color: #2a2a2a;">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="container" style="color: #A8A8A8;">
+                    <div class="row mt-5 mb-3" style="font-family: Arial; font-size: 23px;">
+                        Connect With Us
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 col-lg-8 mb-5">
+                            <div class="row mb-3">
+                                <div class="col-md-12">Certified</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <img title="ISO Certificate" alt="ISO Certificate" src="img/ISO.png" height="230" width="242" class="img-fluid" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-4 mb-3">
+                            <div class="row mb-3">
+                                <div class="col-md-12">Corporate InFo.</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <table style="width: 372px; height: 184px;" border="0">
+                                        <tbody>
+                                            <tr>
+                                                <td><a href="#" class="setAchor">About Us</a></td>
+                                                <td><a href="#" class="setAchor">Download E-Brochure</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#" class="setAchor">Our Moral Responsibility</a></td>
+                                                <td><a href="#" class="setAchor">CSR</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#" class="setAchor">Disclaimer</a></td>
+                                                <td><a href="#" class="setAchor">Recognition &amp; Awards</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#" class="setAchor">Privacy Policy</a></td>
+                                                <td><a href="#" class="setAchor">Contact Us</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#" class="setAchor">Terms &amp; Conditions</a></td>
+                                                <td><a href="#" class="setAchor">Monginis Egypt</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#" class="setAchor">Mongiland</a></td>
+                                                <td><a href="#" class="setAchor">Cake Studies</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#" class="setAchor">Delicia Foods</a></td>
+                                                <td><a href="#" class="setAchor">Training Videos</a></td>
+                                            </tr>
+                                            <tr>
+                                                <td><a href="#" class="setAchor">Meet Our Team</a></td>
+                                                <td><a href="#" class="setAchor">Our Factories</a></td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid setFooter">
+        <div class="row">
+            <div class="col-md-12 p-4">
+                © 2017 Monginis. All Rights Reserved.
+            </div>
+        </div>
+    </div>
+</body>
+</html>
